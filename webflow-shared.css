@@ -79,7 +79,7 @@ body{overflow-x:clip;max-width:100%}
 /* qz-mob3: mobilde hero/display basliklar net kucuk + kirilmasin */
 @media screen and (max-width:767px){.h1{font-size:2.9rem !important;line-height:1.02 !important;white-space:nowrap !important}.h2{font-size:2.1rem !important}}
 
-/* qz-heading-fix: "The old city you wanted yours this year" duz + bindirme yok */
-.loc-path-s_title .h3{line-height:1 !important}
-.loc-path-s_title_a{transform:none !important;rotate:none !important;margin-top:.1em !important;margin-bottom:0 !important}
-.loc-path-s_title_a.a2{margin-top:.1em !important;margin-bottom:0 !important;line-height:1 !important}
+/* qz-heading-fix: "The old city you wanted yours this year" -> hepsi ayni font, bindirme/bosluk yok */
+.loc-path-s_title .h3{line-height:.95 !important}
+.loc-path-s_title_a{transform:none !important;rotate:none !important;margin:0 !important}
+.loc-path-s_title_a.a2{font-family:var(--_fonts---font-display) !important;font-size:1em !important;text-transform:uppercase !important;letter-spacing:var(--_fonts---h3--letter-spacing) !important;line-height:.95 !important;margin:0 !important}
