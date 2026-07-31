@@ -116,3 +116,6 @@ body{overflow-x:clip;max-width:100%}
 @media screen and (max-width:767px){
   .footer-w_bg{height:var(--_special-units---100vh) !important}
 }
+
+/* qz-map-fix: konum-t.png zaten tam harita; gereksiz+gerilmis loc_path.svg cizgisini gizle */
+.loc-path-s_path_c img.loc-path{display:none !important}
